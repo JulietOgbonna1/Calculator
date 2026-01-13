@@ -58,6 +58,10 @@ button:active{
 .operators:active{
     background-color: rgb(228, 51, 228);
 }
+.clear{
+    background-color: red;
+    
+}
 
 
 @media(max-width: 480px){
