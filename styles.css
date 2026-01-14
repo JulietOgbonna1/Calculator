@@ -9,7 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #222;
+    background-color: white;
 }
 button{
     width: 15vh;
@@ -67,12 +67,18 @@ button:active{
 
 @media(max-width: 480px){
     button{
-        width: 13vh;
-        height: 13vh;
+        width: 10vh;
+        height: 10vh;
         font-size: 2rem;
+    }
+    html{
+        font-size: 14px;
     }
     #display{
         font-size: 4rem;
+    }
+    #calculator{
+        max-width: 450px;
     }
 
     #keys{
