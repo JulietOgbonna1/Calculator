@@ -67,8 +67,8 @@ button:active{
 
 @media(max-width: 480px){
     button{
-        width: 8vh;
-        height: 8vh;
+        width: 70px;
+        height: 70px;
         font-size: 2rem;
     }
     html{
@@ -78,7 +78,6 @@ button:active{
         font-size: 4rem;
     }
     #keys{
-        gap: 8px;
         padding: 10px;  
     }
 }
