@@ -64,7 +64,7 @@ button:active{
 }
 
 
-@media(max-width: 450px){
+@media(max-width: 480px){
     button{
         width: 13vh;
         height: 13vh;
