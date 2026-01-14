@@ -73,4 +73,7 @@ button:active{
     #display{
         font-size: 4rem;
     }
+    #calculator{
+        max-width: 450px;
+    }
 }
