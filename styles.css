@@ -73,9 +73,7 @@ button:active{
     #display{
         font-size: 4rem;
     }
-    #calculator{
-        max-width: 450px;
-    }
+
     #keys{
         gap: 8px;
         padding: 15px;
