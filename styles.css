@@ -11,11 +11,12 @@ body{
     background-color: #222;
 }
 button{
-    width: 13vh;
-    height: 13vh;
+    padding: 3vh;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px white;
     border: none;
-    background-color: blue;
-    color: white;
+    background-color: white;
+    color: black;
     font-size: 2.5rem;
     font-weight: bold;
     cursor: pointer;
@@ -23,48 +24,114 @@ button{
 #keys{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 8px;
+    gap: 10px;
     padding: 25px;
+    border-top: 3px solid white;
 }
 #calculator{
     font-family: Arial, Helvetica, sans-serif;
     background-color: black;
     border-radius: 20px;
-    max-width: 500px;
+    width: 40vw;
     overflow: hidden;
 }
 #display{
-    width: 100%;
-    padding: 3vh;
+    width: 90%;
+    padding: 1vh;
+    margin: 3vh;
+    border-radius: 10px;
     font-size: 5rem;
     text-align: left;
     border: none;
-    background-color: black;
-    border-bottom: 3px solid blue;
-    color: white;
+    background-color: #726d6d;
+    color: black;
 }
 button:hover{
-    background-color: #6a6aff;
+    background-color: #726d6d;
 }
 button:active{
-    background-color: lightblue;
+    background-color: #726d6d;
 }
 .operators{
-    background-color: magenta;
+    background-color: orange;
 }
 .operators:hover{
-    background-color: rgb(247, 132, 247);
+    background-color: rgb(48, 43, 48);
 }
 .operators:active{
-    background-color: rgb(228, 51, 228);
+    background-color: rgb(44, 41, 44);
 }
 .clear{
-    background-color: red;
+    background-color: orange;
     
 }
 
-
+@media(max-width: 768px){
+    #calculator{
+        width: 80vw;
+    }
+    button{
+        padding: 2vh;
+    }
+    #keys{
+        padding: 15px;  
+    }
+    #calculator{
+        width: 60vw;
+       
+    }
+    #display{
+        font-size: 3rem;
+    }
+}
 @media(max-width: 480px){
+    #calculator{
+        width: 80vw;
+    }
+    button{
+        padding: 2.5vh 0.8vh;
+        font-size: 2rem;
+    }
+    #keys{
+        padding: 10px;  
+    }
+    #display{
+        font-size: 2.5rem;
+    }
+}
+@media(max-width: 400px){
+    #calculator{
+        width: 90vw;
+    }
+    button{
+        padding: 3vh 0.3vh;
+        font-size: 1.5rem;
+    }
+    #keys{
+        padding: 10px;  
+    }
+    #display{
+        font-size: 2rem;
+    }
+}
+@media(max-width: 360px){
+    #calculator{
+        width: 90vw;
+    }
+    button{
+        padding: 3vh 0.3vh;
+        font-size: 1.5rem;
+    }
+    #keys{
+        padding: 10px;  
+    }
+    #display{
+        font-size: 2rem;
+        padding: 2vh;
+    }
+}
+
+/* @media(max-width: 480px){
     button{
         width: 70px;
         height: 70px;
@@ -92,4 +159,4 @@ button:active{
     #display{
         font-size: 3rem;
     }
-}
+} */
